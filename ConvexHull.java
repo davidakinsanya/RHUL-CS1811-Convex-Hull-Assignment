@@ -83,8 +83,6 @@ class ConvexHull {
                     }
 
                     if ((above > 0 && below == 0) || (above == 0 && below > 0)) {
-                        System.out.print("Line connecting the points " + Arrays.toString(pointI));
-                        System.out.println(" and " + Arrays.toString(pointJ) + " inna di convex hull");
                         double[][] points = {pointI, pointJ};
                         convexPoints.add(points);
                     } else {
